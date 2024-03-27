@@ -1,0 +1,32 @@
+.carousel {
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .carousel .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .carousel .slick-dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .carousel .slick-dots .slick-active {
+    background-color: white;
+  }
