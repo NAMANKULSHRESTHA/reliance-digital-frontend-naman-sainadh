@@ -85,9 +85,9 @@ const Description = styled.div`
   button {
     width: 100%;
     height: 33px;
-    background-color: #fa8900;
+    background-color: #e42529;
     border: none;
-    border-radius: 10px;
+    color:#fff;
     cursor: pointer;
   }
 `;
